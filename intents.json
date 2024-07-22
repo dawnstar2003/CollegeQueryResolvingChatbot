@@ -1,0 +1,213 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hiii",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Have a nice day",
+        "Bye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "department",
+      "patterns": [
+        "What are the department available in the college",
+        "List the departments available",
+        "course",
+        "branches available",
+        "departments",
+        "department",
+        "courses available",
+        "courses offered"
+      ],
+      "responses": [
+        "We provide UG programs including CSE, AI&DS, ECE, EEE, IT, Civil Engineering, Mechatronics Engineering, Mechanical Engineering, Bio-Technology, and Communication & Networking, along with PG programs in Power Systems Engineering, Communication & Networking,."
+      ]
+    },
+     {
+      "tag": "Principal",
+      "patterns": ["name of the principal", "principal", "about principal", "principal information"],
+      "responses": ["Our principal DR.S.Senthil M.E, Ph.D"]
+    },
+
+    {
+      "tag": "Hostel",
+      "patterns": ["girls hostel", "boys hostel" , "hostel", "is hostel facility available for girls?", "is hostel facility available for boys"],
+      "responses": ["yes, we provided well-furnished rooms, clean bathrooms, a gym, and indoor games provide a comfortable and engaging living environment for residents. <br> \n\n-Additional amenities include 24/7 Wi-Fi, a tuck shop, medical services, CCTV surveillance, and a computer room with high-speed internet, ensuring a safe and convenient stay with access to essential resources."]
+    },
+    {
+      "tag": "location and contact details",
+      "patterns": [
+        "where does the college locate?",
+        "Address",
+        "Phone number",
+        "Contact details",
+        "how to get to college",
+        "location of the college"
+      ],
+      "responses": [
+        "Visit Our College :\nS.P.G.Chidambara Nadar, C.Nagammal Campus, S.P.G.C.Nagar, K.Vellakulam - 625 701, (Near Virudhunagar)<br> Call Us :\n(+91) 4549-278791,\n\n(+91) 4549-278171,\n\n+91 9488524988,\n\n+91 9443544988.<br>  \n Email Us :\nmail@kamarajengg.edu.in "
+      ]
+    },
+    {
+      "tag": "abContacts",
+      "patterns": ["TDP cell", "placement contact", "TDP cell contact details","placement queries","placement contact details"],
+      "responses": ["-Placement Officer : 94423-25078 <br>\n-Placement Organizer : 79047-17255 <br>\n -Training Organizer : 99445-11610"]
+    },
+    {
+
+      "tag": "library",
+      "patterns": ["What are the library hours?", "How do I borrow a book?", "Are there quiet study areas in the library?"],
+      "responses": ["Our library is open on all working days, timing 9.10 AM to 6.00 PM. <br>To borrow a book, please visit the library desk with your student ID."]
+    },
+
+
+    {
+      "tag": "sports",
+      "patterns": ["What sports teams do we have?", "How can I join a sports team?", "Are there intramural sports?","sports teams"],
+      "responses": ["We have a variety of in-door and out-door sports teams including cricket, volleyball, Badminton, Tennis, Chess, etc.,<br> KCET is an active member of different sports associations.  <br>You can contact the respective coaches once you joined the college. <br>We also offer intramural sports for students."]
+    },
+    {
+      "tag": "clubs",
+      "patterns": ["club list", "What student clubs and organizations are there?", "How can I join a club?", "Are there any special interest groups?","list of club"],
+      "responses": ["We have a diverse range of student clubs and organizations, including NSS,NCC,YRC,Ramanujam club,Photography club, etc.,<br>"]
+    },
+    {
+      "tag": "career_services",
+      "patterns": ["What career services are available?", "How can I get help with my resume?", "Are there job fairs on campus?","placement cell availability?"],
+      "responses": ["We offer a range of career services, including resume workshops and mock interviews. <br> Training Development and Placement Cell helps students to upskill their skills to meet the industrial expectations and thereby making them job ready once they graduate from the Institution."]
+    },
+    {
+      "tag": "academic_support",
+      "patterns": ["Is there academic tutoring available?", "How can I get help with my coursework?", "Are there study groups for specific subjects?"],
+      "responses": ["Yes, we provide academic tutoring services if needed by the students.<br> You can contact your faculties on tutoring and course related research."]
+    },
+
+
+    {
+      "tag": "About College",
+      "patterns": ["about kcet","about college","how many student studying in kcet","how many staffs/faculty working here?","placement percentage","No of Programmes available","year the college was established","total area covered by college","Total student","about"],
+      "responses": [
+        "Our College was established in the year 1998.<br>Our College spans to 47.92 acres of land.<br> Total Students : 1950 <br> Total Faculty : 143 <br> Programmes : 14 <br> Placement : 91% <br>"
+      ]
+    },
+
+    {
+      "tag": "Eligibility",
+      "patterns": ["eligibility","eligibility for cse","eligibility for AI&DS","eligibility for B.tech", "eligibility criteria","eligibility for b.e","eligibility for AI&DS","eligibility for civil","eligibiligy for ece","eligibility for eee","eligibility for Mech","eligibility for mechanic","eligibility for mechatronics","eligibility for IT"],
+      "responses": [
+        "A pass in the HSC (Academic: both +1 and +2) or its equivalent with a minimum average percentage in Mathematics, Physics and Chemistry put together as given below.<br>General Category : 45% <br> Backward Class : 40%<br> MBC and DNC : 40% <br> SC/SCA/ST : 40%"
+      ]
+    },
+
+    {
+      "tag": "Facility",
+      "patterns": ["facilities","other facilities","what are the facilities available","facility","additional facilities","extra facilities"],
+      "responses": [
+        "-A library with an extensive collection of over 68,000 books.<br>\n-A state-of-the-art computing facility with 800 computers.<br>\n-Professional counseling services for student well-being.<br>\n-A dedicated health care center.<br>\n-Convenient transportation options, including buses.<br>\nOn-campus banking and ATM services.<br>\n-Wi-Fi connectivity throughout the campus.<br>\n-Reliable Reverse Osmosis (RO) water facilities."
+      ]
+    },
+
+    {
+      "tag": "Vision",
+      "patterns": ["vision","vision of the college","vision of kcet","kcet vision"],
+      "responses": [
+        "To Make this Institution the unique of its kind in the field of Research and Development activities in this part of world."
+      ]
+    },
+
+
+
+     {
+      "tag": "Mission",
+      "patterns": ["mission","mission of the college","mission of kcet","kcet mission"],
+      "responses": [
+        "To impart highly innovative and technical knowledge to the urban and unreachable rural student folks through \"Total Quality Education\"."
+      ]
+    },
+
+    {
+      "tag": "Quality Policy",
+      "patterns": ["quality policy","quality policy of the college","quality policy of kcet","kcet quality policy"],
+      "responses": [
+        "Committed to impart Quality Technical Education imbibed with proficiency, human values and continual improvement."
+      ]
+    },
+
+    {
+      "tag": "Recruitment",
+      "patterns": [
+        "What are prominent recruiters",
+        "List the companies that recruit from this college",
+        "Recruitments",
+        "recruiting companies",
+        "does tcs and zoho comes to this college",
+        "placement details",
+        "company",
+        "companies",
+        "placement"
+      ],
+      "responses": [
+        "A few of our Prominent Recruiters Relevantz, Zoho, Infosys, TCS, accenture, Clustrex, Xmplar, ZIFO, DATA PATTERNS, e-con Systems, aptean ...<br>\\nExplore our placements records for more information on <br> <a href='http://www.kamarajengg.edu.in/placementsrecords'>Placements&Company</a>."
+      ]
+    },
+
+     {
+      "tag": "Admission form",
+      "patterns": ["admission form","schedule admission","B.E admission","B.Tech admission","How to apply for admission","how to apply for admission through online","apply admission online","form for admission","apply admission","can we apply for admission online?","how can we apply for admission?","application form","application","application for cse","application for EEE","application","apply through online","apply"],
+      "responses": ["You can apply for admission through <a href='http://www.kamarajengg.edu.in/admiss_vieww'>Admission Form</a>."]
+    },
+
+    {
+      "tag": "syllabus",
+      "patterns": ["syllabus","syllabus for cse", "syllabus for ad","syllabus for ece", "syllabus for eee","B.E syllabus","B.Tech syllabus","syallabus for IT"
+      ],
+      "responses": [
+        "view syllabus in <a href='https://www.kamarajengg.edu.in/syllabus'>Kcet syllabus</a>."
+      ]
+    },
+    {
+      "tag": "Counselling code",
+      "patterns": ["counselling code","counselling"],
+      "responses": [
+        "4959"
+      ]
+    },
+
+
+	{
+      "tag": "tuition",
+      "patterns": ["How much is tuition?","fee", "Are there scholarships available?","tution fee", "fee details","college fee"],
+      "responses": ["Fee varies from department to department.<br> know more by visiting the link <a href='http://www.kamarajengg.edu.in/admission#eligiblity'>Fee Detail</a>."]
+    },
+
+    {
+      "tag": "research",
+      "patterns": ["research centres availability","How college helps in research and development side","Facilites of research","Funded projects","can i do reasearch in kcet?","research work","reaserch?"],
+      "responses": ["Kamaraj Research forum creates a conductive environment for enhanced research productivity in terms of publications, patents, products and funded projects.<br>And we encourages our students and Faculty members to participate in conferences, seminars, workshops, project competition, etc., see more at  <a href='http://www.kamarajengg.edu.in/about_reasearch'>Research</a>."]
+    }
+
+
+  ]
+}
